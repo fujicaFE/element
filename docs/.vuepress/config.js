@@ -3,6 +3,7 @@
 module.exports = {
   title: '@fujica/element',
   description: 'PC组件库文档。',
+  base: '/fsdocs/element/',
   themeConfig: {
     sidebar: [
       {
