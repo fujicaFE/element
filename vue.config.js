@@ -1,8 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 const { getEntries } = require('./build')
 
-const devConfig = defineConfig({
-  transpileDependencies: true,
+const devConfig = {
   pages: {
     index: {
       entry: 'src/main.js',
@@ -22,9 +21,9 @@ const devConfig = defineConfig({
         return options
       })
   }
-})
+}
 
-const buildConfig = defineConfig({
+const buildConfig = {
   outputDir: 'lib',
   productionSourceMap: false,
   chainWebpack: config => { // vue-loader配置（vue和js文件转译）
@@ -69,7 +68,7 @@ const buildConfig = defineConfig({
       filename: 'style/[name].css'
     }
   },
-})
+}
 
 const config = process.env.NODE_ENV === 'development' ? devConfig : buildConfig
 

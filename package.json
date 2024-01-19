@@ -16,14 +16,14 @@
     "webpack": "^4.8.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "babel-plugin-import": "^1.13.8",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-plugin-import": "^1.13.5",
     "node-sass": "^4.14.1",
     "sass-loader": "^7.3.1",
     "vue-server-renderer": "2.6.10",
     "vue-template-compiler": "2.6.10",
-    "vuepress": "^1.9.9",
+    "vuepress": "^1.9.10",
     "vuepress-theme-reco": "^1.6.17"
   },
   "browserslist": [
