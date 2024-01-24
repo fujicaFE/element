@@ -1,9 +1,10 @@
 // 所有组件的集合
 import FsKeyboard from './FsKeyboard'
+import FsElmTable from './FsElmTable'
 
 import './index.css'
 
-const components = [FsKeyboard]
+const components = [FsKeyboard, FsElmTable]
 
 const install = function (Vue, opts = {}) {
   if (!Vue.prototype.$ELEMENT) {
@@ -20,5 +21,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   version: '0.1.0',
   install,
-  FsKeyboard
+  FsKeyboard,
+  FsElmTable
 }

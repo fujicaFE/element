@@ -1,8 +1,3 @@
-/**
-* @author: HXF
-* @date: 2022/07/25 9:39
-* @Description: table通用组件
-*/
 <template>
   <div>
     <el-row class="mb-40">

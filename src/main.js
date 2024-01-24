@@ -3,6 +3,7 @@ import App from './App.vue'
 import ElementUI from 'element-ui' //引入UI
 import 'element-ui/lib/theme-chalk/index.css'
 import FsKeyboard from '../packages/FsKeyboard'
+import FsElmTable from '../packages/FsElmTable'
 import '../packages/index.css'  // 如果有全局样式的话需要引入
 
 // 需要手动挂载 $ELEMENT 到原型上
@@ -13,6 +14,7 @@ Vue.prototype.$ELEMENT = {
 Vue
   .use(ElementUI)
   .use(FsKeyboard)
+  .use(FsElmTable)
 
 Vue.config.productionTip = false
 
