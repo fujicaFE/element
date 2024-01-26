@@ -25,8 +25,7 @@ module.exports = {
             title: '输入',
             collapsable: false,
             children: [
-              ['../comp/Keyboard.md', 'Keyboard'],
-              ['../comp/ElmTable.md', 'ElmTable']
+              ['../comp/Keyboard.md', 'Keyboard']
             ]
           }
         ]

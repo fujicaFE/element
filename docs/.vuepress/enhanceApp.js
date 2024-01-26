@@ -1,5 +1,5 @@
 import 'element-ui/lib/theme-chalk/index.css';
-import FsKeyboard from '../../packages/FsKeyboard/src'
+import FsKeyboard from '../../packages/FsKeyboard/src/index.vue'
 
 export default async ({
   Vue, // VuePress 正在使用的 Vue 构造函数

@@ -2,6 +2,7 @@
   "name": "@fujica/element",
   "version": "0.1.1",
   "main": "lib/index/index.js",
+  "description": "catching fish in fujica",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

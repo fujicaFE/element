@@ -2,17 +2,19 @@
 
 ## Project setup
 ```
-npm install
+npm i @fujica/element
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run serve
+```js
+import '@fujica/element/lib/index/index.css'
+import fsUI from '@fujica/element'
+Vue.use(fsUI)
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+<fs-keyboard />
 ```
 
 ### Customize configuration

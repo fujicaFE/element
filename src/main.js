@@ -11,8 +11,6 @@ Vue.prototype.$ELEMENT = {
   version: '1.4.2'
 }
 
-console.log(`output->ob`, ob)
-
 Vue
   .use(ElementUI)
   .use(fsUI)
