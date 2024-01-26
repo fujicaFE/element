@@ -19,7 +19,7 @@
         <div class="content">
           <div v-for="item in list" :key="item.id" class="region" @click.stop="btnClick(item)">
             {{ item.font }}
-            <img v-if="item.id == 33" src="./assets/delect.png">
+            <img v-if="item.id == 33" src="../assets/delete.png">
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
         <div class="content content1">
           <div v-for="item in list1" :key="item.id" :class="{'region':true,'btn-disabled':btnFlag(item)}" @click.stop="btnClick(item)">
             {{ item.font }}
-            <img v-if="item.id == 38" src="./assets/delect.png">
+            <img v-if="item.id == 38" src="../assets/delete.png">
           </div>
         </div>
       </div>
@@ -37,9 +37,9 @@
 </template>
 
 <script>
-import data from './assets/keyboard.json'
+import data from '../assets/keyboard.json'
 export default {
-  name: 'Keyboard',
+  name: 'FsKeyboard',
   data() {
     return {
       show: false,

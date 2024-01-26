@@ -1,7 +1,7 @@
-import FsKeyboard from './FsKeyboard'
+import FsKeyboard from './src'
 
 FsKeyboard.install = function (Vue) {
-  Vue.component('fs-keyboard', FsKeyboard)
+  Vue.component(FsKeyboard.name, FsKeyboard)
 }
 
 export default FsKeyboard

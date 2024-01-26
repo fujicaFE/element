@@ -1,7 +1,7 @@
 {
   "name": "@fujica/element",
   "version": "0.1.0",
-  "main": "./lib/index.js",
+  "main": "lib/index/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
