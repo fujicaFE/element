@@ -222,7 +222,7 @@ border-radius: 8px;
 border: 1px solid #999;
 position: absolute;
 top: 58px;
-z-index: 1;
+z-index: 2;
 width: 425px;
 .close{
   text-align: right;
