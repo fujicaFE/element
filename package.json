@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "dev": "npm run build && npm run serve",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },

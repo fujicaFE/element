@@ -3,7 +3,9 @@ import FsKeyboard from "./FsKeyboard/src";
 
 import "./index.css";
 
-const components = [FsKeyboard];
+const components = [
+  FsKeyboard
+];
 
 const install = function (Vue, opts = {}) {
   // 判断是否安装
